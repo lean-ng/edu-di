@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "edu-di"
+  "defaultProject": "edu-di",
+  "cli": {
+    "analytics": false
+  }
 }
