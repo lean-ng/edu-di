@@ -8,6 +8,7 @@ import {TodosModule} from './todos/todos.module';
 import {StatsModule} from './stats/stats.module';
 import {SharedModule} from './shared/shared.module';
 import { HomeComponent } from './home/home.component';
+import {MultipleService} from './multiple.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { HomeComponent } from './home/home.component';
     // Shared Module
     SharedModule
   ],
-  providers: [],
+  providers: [MultipleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
